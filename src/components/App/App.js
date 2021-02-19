@@ -1,6 +1,6 @@
 import './App.css';
 import "materialize-css/dist/css/materialize.css"
-import {Route, BrowserRouter as Router, Switch} from "react-router-dom";
+import {Route, BrowserRouter as Router, Switch, Link} from "react-router-dom";
 import React from "react";
 import logo from "../../logo.png"
 import Home from "../Home";
@@ -25,6 +25,7 @@ function App() {
                   </h4>
               </Col>
           </Row>
+          <Link to="/gallery">Gallery</Link>
           <Switch>
               <Route path="/" exact component={Home}/>
               <Route path="/courses" component={Courses}/>
