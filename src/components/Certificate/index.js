@@ -2,7 +2,7 @@ import React from 'react';
 
 const Certificate = () => {
     return (
-        <div>
+        <div style={{"minHeight": "43vh"}}>
             
         </div>
     );
