@@ -2,7 +2,7 @@ import './App.css';
 import "materialize-css/dist/js/materialize"
 import "materialize-css/dist/css/materialize.css"
 import {Route, BrowserRouter as Router, Switch, Link} from "react-router-dom";
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import logo from "../../assets/logo.png"
 import Home from "../Home";
 import Courses from "../Courses";
@@ -18,8 +18,8 @@ function App() {
         {link: "/gallery", name: "Gallery", component: Gallery},
         {link: "/certificate", name: "Certificate Verification", component: Certificate},
         {link: "/about", name: "About Us", component: About},
-
     ]
+
   return (
       <Router>
           <nav className="white" role="navigation">

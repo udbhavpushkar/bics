@@ -1,5 +1,6 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import Materialize from "materialize-css";
+
 
 const Parallax = ({data, image}) => {
 
@@ -8,14 +9,14 @@ const Parallax = ({data, image}) => {
             <div className="section no-pad-bot">
                 <div className="container">
                     <br/><br/>
-                    <h1 className="header center red-text text-darken-2 white-text-shadow">{data.title}</h1>
+                    <h1 className="header center white-text text-darken-2 white-text-shadow">{data.title}</h1>
                     <div className="row center">
-                        <h4 className="header col s12 light white-text red-text-shadow">{data.content}</h4>
+                        <h4 className="header col s12 light white-text white-text-shadow">{data.content}</h4>
                     </div>
                     {data.button?
                         <div className="row center">
                         <a href="#" id="download-button"
-                        className="btn-large waves-effect waves-light red darken-2">Get Started</a>
+                        className="btn-large waves-effect waves-light red darken-2" >Get Started</a>
                         </div>:""}
                     <br/><br/>
                 </div>
