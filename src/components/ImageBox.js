@@ -15,7 +15,7 @@ const ImageBox = ({src}) => {
 
     return (
         <>
-            <Col s={6} m={4} style={{"marginBottom":"20px"}}>
+            <Col s={12} m={6} l={4} style={{"marginBottom":"20px"}}>
                 <img src={url}
                      className="materialboxed"
                      alt="hjh"
