@@ -25,7 +25,7 @@ function App() {
           <nav className="white" role="navigation">
               <div className="nav-wrapper container">
                   <a id="logo-container" href="#" className="brand-logo">
-                      <img src={logo} style={{"height": "63px"}} alt="logo" />
+                      <img src={logo} style={{"height": "55px"}} alt="logo" />
                   </a>
                   <ul className="right hide-on-med-and-down">
                       {routes.map((l, index)=>(
