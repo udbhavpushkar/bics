@@ -3,7 +3,7 @@ import "materialize-css/dist/js/materialize"
 import "materialize-css/dist/css/materialize.css"
 import {Route, BrowserRouter as Router, Switch, Link} from "react-router-dom";
 import React, {useEffect, useState} from "react";
-import logo from "../../assets/logo.png"
+import logo from "../../assets/logo3.png"
 import Home from "../Home";
 import Courses from "../Courses";
 import Gallery from "../Gallery";
@@ -50,7 +50,7 @@ function App() {
               <div className="footer-copyright">
                   <div className="container">
                       <p>
-                          © 2021 <span className="yellow-text text-lighten-3">BICS</span>
+                          © 2021 <span className="yellow-text text-lighten-3">Medium Institute</span>
                       </p>
                   </div>
               </div>

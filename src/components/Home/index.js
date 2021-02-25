@@ -12,8 +12,8 @@ const Home = () => {
         Materialize.AutoInit()
     })
     let para = [{
-            title: "BISC",
-            content: "Welcome to BICS, All in One computer institute.",
+            title: "Medium",
+            content: "Welcome to Medium, All in One computer institute.",
             image: img1,
             video: null,
             button: true
@@ -46,12 +46,11 @@ const Home = () => {
                             <h3><i className="mdi-content-send brown-text"/></h3>
                             <p className=" left-align light">
                                 <strong style={{"fontSize": "larger !important"}}>
-                                    Welcome to <span className="red-text text-darken-2">Bharat Institute Of Computer Science</span>.
+                                    Welcome to <span className="red-text text-darken-2">Medium Institute</span>.
                                     How can we help you..!
                                     It is a long established fact that a student will be distract by number
                                     of Computer Training Institute, when looking for the best online and offline
-                                    institute
-                                    in Ayodhya and Faizabad.
+                                    institute in Ayodhya and Faizabad.
                                 </strong>
                             </p>
                         </div>

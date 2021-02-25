@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import Parallax from "../Parallax";
 import Materialize from "materialize-css";
-import {Col, Container, Row, Section, TextInput, Button} from "react-materialize";
+import {Container, Row, Section, TextInput, Button} from "react-materialize";
 
 const Certificate = () => {
     let para = {
